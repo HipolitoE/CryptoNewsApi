@@ -1,0 +1,10 @@
+<div class="noticias">
+    <h2>Noticias de Criptomonedas</h2>
+    <ul>
+      <li *ngFor="let noticia of noticias" class="noticia-item">
+        <h3>{{ noticia.title }}</h3>
+        <p>{{ noticia.description }}</p>
+        <a href="{{ noticia.link }}" target="_blank">Leer más</a>
+      </li>
+    </ul>
+  </div>

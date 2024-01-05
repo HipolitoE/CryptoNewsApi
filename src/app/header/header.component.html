@@ -1,0 +1,13 @@
+<header class="header">
+  <div class="logo">
+    <div class="logo-image"></div>
+  </div>
+  <button class="menu-button" (click)="toggleMenu()">☰</button>
+  <nav class="nav" [class.show]="isMenuOpen">
+    <ul>
+      <li><a routerLink="" fragment="last-news">Últimas Noticias</a></li>
+      <li><a routerLink="" fragment="markets">Mercados</a></li>
+      <li><a routerLink="" fragment="topics">Temas</a></li>
+    </ul>
+  </nav>
+</header>
